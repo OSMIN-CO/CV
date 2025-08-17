@@ -31,6 +31,7 @@ body{
 
 #download:hover{
     background-color: rgb(3, 167, 139);
+    color:rgb(20, 202, 248);
 }
 
 header{
@@ -118,6 +119,13 @@ header i {
         margin:0.5em;
     }
 
+    #header-ol li a{
+        color:black;
+    }
+
+    #formulario{
+        color:white;
+    }
 
 }
 
