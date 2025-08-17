@@ -232,11 +232,11 @@ header{
 .items-3-div{
     padding: 0.5em;
     width: 20em;
-    height:25em;
+    height:32em;
     text-align: center;
-    display: flex;
+    display: grid;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     box-shadow: 0.01em 0.02em 0.2em 0.01em;
 }
 
@@ -259,6 +259,12 @@ header{
     text-align: start;
     margin:1em;
     color:rgb(119, 119, 119);
+}
+
+.image-project{
+    padding-left:2.5em;
+    width: 15em;
+    height:9em;
 }
 
 #items-4{
