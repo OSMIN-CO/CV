@@ -45,7 +45,13 @@ header{
     box-shadow: 0.01em 0.02em 0.5em 0.01em;
     text-align: center;
 }
+#header-h1{
+    color:white;
+}
 
+header i {
+    color:white;
+}
 #header-nav{
     display: flex;
     flex-direction: row;
@@ -62,6 +68,7 @@ header{
 
 #header-ol li a{
     text-decoration: none;
+    color:white;
 }
 
 #header-ol li a:hover{
@@ -300,9 +307,8 @@ header{
         flex-wrap: wrap;
     }
 }
-footer{
+#items-5{
     background-color:rgb(1, 112, 94);
-    color:black;
     text-align: center;
     padding-top:4em;
     padding-left:1em;
@@ -310,12 +316,20 @@ footer{
     padding-bottom:4em;
 }
 
+#items-5-p{
+    color:white;
+}
 
 footer ol {
+    background: transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
+}
+footer ol li a{
+    text-decoration: none;
+    color:white;
 }
 
 footer ol li {
@@ -326,4 +340,8 @@ footer ol li {
 .footer-image{
     width: 2em;
     height: 2em;
+}
+
+a:hover{
+    color:rgb(20, 202, 248);
 }
