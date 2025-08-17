@@ -110,6 +110,8 @@ header{
     #header-ol li{
         margin:0.5em;
     }
+
+
 }
 
 #container{
@@ -117,13 +119,12 @@ header{
 }
 
 #items-1{
+    padding-left:10em;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap:1em;
-    padding:1em;
 }
 
 .items-1-div{
@@ -146,8 +147,17 @@ header{
 }
 
 #items-1-div-p{
-    width: 25em;
+    text-align: left;
+    line-height: 1.6;
+    max-width: 600px;
     color:rgb(80, 79, 79);
+}
+
+@media(max-width:900px){
+    #items-1{
+        padding:1em;
+        flex-wrap: wrap;
+    }
 }
 
 #items-2{
