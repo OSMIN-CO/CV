@@ -20,7 +20,7 @@ body{
     position: fixed;
     width:7em;
     padding:0.8em;
-    background-color: rgb(1, 112, 94);
+    background-color: rgb(0, 99, 112);
     text-align: center;
     text-decoration: none;
     border-radius: 1em;
@@ -30,19 +30,18 @@ body{
 }
 
 #download:hover{
-    background-color: rgb(3, 167, 139);
+    background-color: rgb(1, 120, 136);
     color:rgb(20, 202, 248);
 }
 
 header{
     top:0em;
     width: 100%;
-    position:fixed;
     padding-top:2em;
     padding-bottom:1em;
     padding-left: 1em;
     padding-right: 1em;
-    background-color: rgb(1, 112, 94);
+    background-color: rgb(0, 99, 112);
     box-shadow: 0.01em 0.02em 0.5em 0.01em;
     text-align: center;
 }
@@ -77,16 +76,16 @@ header i {
 }
 #formulario{
     text-decoration: none;
-    background-color: rgb(1, 112, 94);
+    background-color: rgb(0, 99, 112);
     border-radius: 0.5em;;
     padding: 0.5em;
     border-style:solid;
     border-width:0.1em;
-    border-color:black;
+    border-color:white;
 }
 
 #formulario:hover{
-    background-color: rgb(3, 167, 139);
+    background-color:rgb(0, 135, 153);
 }
 
 #hamburguesa{
@@ -99,6 +98,16 @@ header i {
         cursor:pointer;
         color:aliceblue;
         font-size: 2em;
+        border-style:solid;
+        border-width: 0.01em;
+        padding-left:0.1em;
+        padding-right:0.1em;
+        border-radius: 0.1em;
+    }
+
+    #hamburguesa:hover{
+        color:rgb(3, 200, 226);
+        box-shadow: 0.01em 0.01em 0.1em 0.1em;
     }
 
     #header-ol{
@@ -123,9 +132,6 @@ header i {
         color:black;
     }
 
-    #formulario{
-        color:white;
-    }
 
 }
 
@@ -140,6 +146,17 @@ header i {
     justify-content: center;
     align-items: center;
     gap:1em;
+}
+
+.hidden{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.hidden.show{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .items-1-div{
@@ -182,8 +199,8 @@ header i {
     gap:1em;
     justify-content: center;
     color:rgb(119, 119, 119);
-
 }
+
 
 .items-2-section{
     padding:2em;
@@ -198,7 +215,7 @@ header i {
 .items-details{
     width: 20em;
     margin:1em;
-    border-color:rgb(1, 112, 94);
+    border-color:rgb(0, 99, 112);
     border-style:solid;
     border-width: 0.1em;
     border-radius: 1em;
@@ -207,7 +224,7 @@ header i {
 .items-details summary{
     padding:0.5em;
     color:rgb(80, 79, 79);
-    border-color:rgb(1, 112, 94);
+    border-color:rgb(0, 99, 112);
     border-style:solid;
     border-width: 0.1em;
     border-radius: 1em;
@@ -223,7 +240,7 @@ header i {
     color:rgb(119, 119, 119);
     padding:0.3em;
     border-left-width:0.3em;
-    border-left-color:rgb(1, 112, 94);
+    border-left-color:rgb(0, 99, 112);
     border-left-style: solid;
 }
 
@@ -241,7 +258,18 @@ header i {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:3em;
+}
+
+.hidden{
+    gap:1em;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.hidden.active{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .items-3-div{
@@ -257,6 +285,10 @@ header i {
 
 .items-3-div h4{
     color:rgb(80, 79, 79);
+}
+
+.items-3-div:hover{
+    box-shadow: 0.01em 0.01em 1em 0.1em;
 }
 
 .items-3-p{
@@ -288,6 +320,7 @@ header i {
     flex-direction: row;
     justify-content: center;
     gap:2em;
+    gap:3em;
 }
 
 .items-4-section{
@@ -316,12 +349,13 @@ header i {
     }
 }
 #items-5{
-    background-color:rgb(1, 112, 94);
+    background-color:rgb(0, 99, 112);
     text-align: center;
     padding-top:4em;
     padding-left:1em;
     padding-right:1em;
     padding-bottom:4em;
+    gap:3em;
 }
 
 #items-5-p{

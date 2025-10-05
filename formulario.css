@@ -78,28 +78,3 @@ button{
 button:hover{
     background-color: rgb(3, 167, 139);
 }
-footer{
-    background-color:  aliceblue;
-    color:black;
-    text-align: center;
-    padding-top:4em;
-    padding-left:1em;
-    padding-right:1em;
-    padding-bottom:4em;
-}
-
-footer ol {
-    display: flex;
-    justify-content: center;
-
-}
-
-footer ol li {
-    padding:1em;
-    list-style-type:none;
-}
-
-.footer-image{
-    width: 2em;
-    height: 2em;
-}
