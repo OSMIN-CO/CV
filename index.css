@@ -356,6 +356,7 @@ header i {
     padding-right:1em;
     padding-bottom:4em;
     gap:3em;
+    width: 100%;
 }
 
 #items-5-p{
