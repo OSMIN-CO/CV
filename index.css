@@ -151,7 +151,7 @@ header i {
 .hidden{
     opacity: 0;
     transform: translateY(40px);
-    transition: all 0.8s ease;
+    transition: all 0.9s ease;
 }
 
 .hidden.show{
